@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA960AE22817F46C0041D5E4 /* BeaconList.json in Resources */ = {isa = PBXBuildFile; fileRef = EA960AE12817F46C0041D5E4 /* BeaconList.json */; };
+		EA960AE52817F6370041D5E4 /* LocationBeaconManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA960AE42817F6370041D5E4 /* LocationBeaconManger.swift */; };
+		EA960AE72817F6E40041D5E4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA960AE62817F6E40041D5E4 /* Item.swift */; };
+		EAAAA427280ED1C100A66005 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAAA426280ED1C100A66005 /* AppDelegate.swift */; };
+		EAAAA429280ED1C100A66005 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAAA428280ED1C100A66005 /* SceneDelegate.swift */; };
+		EAAAA42B280ED1C100A66005 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAAA42A280ED1C100A66005 /* ViewController.swift */; };
+		EAAAA42E280ED1C100A66005 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAAA42C280ED1C100A66005 /* Main.storyboard */; };
+		EAAAA430280ED1C300A66005 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAAA42F280ED1C300A66005 /* Assets.xcassets */; };
+		EAAAA433280ED1C300A66005 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAAA431280ED1C300A66005 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA960AE12817F46C0041D5E4 /* BeaconList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BeaconList.json; sourceTree = "<group>"; };
+		EA960AE42817F6370041D5E4 /* LocationBeaconManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationBeaconManger.swift; sourceTree = "<group>"; };
+		EA960AE62817F6E40041D5E4 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EAAAA423280ED1C100A66005 /* BeaconDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeaconDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAAA426280ED1C100A66005 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAAAA428280ED1C100A66005 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EAAAA42A280ED1C100A66005 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAAAA42D280ED1C100A66005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAAAA42F280ED1C300A66005 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAAAA432280ED1C300A66005 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EAAAA434280ED1C300A66005 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAAAA420280ED1C100A66005 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA960AE02817F4450041D5E4 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				EA960AE12817F46C0041D5E4 /* BeaconList.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		EA960AE32817F61E0041D5E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA960AE62817F6E40041D5E4 /* Item.swift */,
+				EA960AE42817F6370041D5E4 /* LocationBeaconManger.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EAAAA41A280ED1C100A66005 = {
+			isa = PBXGroup;
+			children = (
+				EAAAA425280ED1C100A66005 /* BeaconDemo */,
+				EAAAA424280ED1C100A66005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAAAA424280ED1C100A66005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAAAA423280ED1C100A66005 /* BeaconDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAAAA425280ED1C100A66005 /* BeaconDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EA960AE32817F61E0041D5E4 /* Model */,
+				EA960AE02817F4450041D5E4 /* Json */,
+				EAAAA426280ED1C100A66005 /* AppDelegate.swift */,
+				EAAAA428280ED1C100A66005 /* SceneDelegate.swift */,
+				EAAAA42A280ED1C100A66005 /* ViewController.swift */,
+				EAAAA42C280ED1C100A66005 /* Main.storyboard */,
+				EAAAA42F280ED1C300A66005 /* Assets.xcassets */,
+				EAAAA431280ED1C300A66005 /* LaunchScreen.storyboard */,
+				EAAAA434280ED1C300A66005 /* Info.plist */,
+			);
+			path = BeaconDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAAAA422280ED1C100A66005 /* BeaconDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAAAA437280ED1C300A66005 /* Build configuration list for PBXNativeTarget "BeaconDemo" */;
+			buildPhases = (
+				EAAAA41F280ED1C100A66005 /* Sources */,
+				EAAAA420280ED1C100A66005 /* Frameworks */,
+				EAAAA421280ED1C100A66005 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeaconDemo;
+			productName = BeaconDemo;
+			productReference = EAAAA423280ED1C100A66005 /* BeaconDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAAAA41B280ED1C100A66005 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					EAAAA422280ED1C100A66005 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = EAAAA41E280ED1C100A66005 /* Build configuration list for PBXProject "BeaconDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAAAA41A280ED1C100A66005;
+			productRefGroup = EAAAA424280ED1C100A66005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAAA422280ED1C100A66005 /* BeaconDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAAAA421280ED1C100A66005 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAAAA433280ED1C300A66005 /* LaunchScreen.storyboard in Resources */,
+				EAAAA430280ED1C300A66005 /* Assets.xcassets in Resources */,
+				EAAAA42E280ED1C100A66005 /* Main.storyboard in Resources */,
+				EA960AE22817F46C0041D5E4 /* BeaconList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAAAA41F280ED1C100A66005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA960AE72817F6E40041D5E4 /* Item.swift in Sources */,
+				EA960AE52817F6370041D5E4 /* LocationBeaconManger.swift in Sources */,
+				EAAAA42B280ED1C100A66005 /* ViewController.swift in Sources */,
+				EAAAA427280ED1C100A66005 /* AppDelegate.swift in Sources */,
+				EAAAA429280ED1C100A66005 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAAAA42C280ED1C100A66005 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAAAA42D280ED1C100A66005 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAAAA431280ED1C300A66005 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAAAA432280ED1C300A66005 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAAAA435280ED1C300A66005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAAAA436280ED1C300A66005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAAAA438280ED1C300A66005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78KJGA5RRW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeaconDemo/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_DISPLAY_NAME) would like to access your location to find nearby places";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "$(PRODUCT_DISPLAY_NAME) would like to access your location to find nearby places";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_DISPLAY_NAME) would like to access your location to find nearby places";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silvertouch.BeaconDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = GeneralProfile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAAAA439280ED1C300A66005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 78KJGA5RRW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BeaconDemo/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "$(PRODUCT_DISPLAY_NAME) would like to access your location to find nearby places";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "$(PRODUCT_DISPLAY_NAME) would like to access your location to find nearby places";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(PRODUCT_DISPLAY_NAME) would like to access your location to find nearby places";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silvertouch.BeaconDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = GeneralProfile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAAAA41E280ED1C100A66005 /* Build configuration list for PBXProject "BeaconDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAAA435280ED1C300A66005 /* Debug */,
+				EAAAA436280ED1C300A66005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAAAA437280ED1C300A66005 /* Build configuration list for PBXNativeTarget "BeaconDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAAAA438280ED1C300A66005 /* Debug */,
+				EAAAA439280ED1C300A66005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAAAA41B280ED1C100A66005 /* Project object */;
+}

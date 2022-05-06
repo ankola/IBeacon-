@@ -1,0 +1,11 @@
+{
+    "beacons": [
+        {
+            "name": "MOKOBeacon",
+            "icon": 0,
+            "uuid": "E2C56DB5-DFFB-48D2-B060-D0F5A71096E0",
+        },
+    ],
+    "resultFlag": true,
+    "message": "Success"
+}
